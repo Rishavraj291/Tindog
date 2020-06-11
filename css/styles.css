@@ -1,0 +1,155 @@
+body{
+
+  font-family:"Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.head1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+  }
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* FEATURES */
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.icons{
+  color: #ef8172;
+  padding-bottom: 10px;
+
+}
+.feature-head{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.col-lg-4{
+  padding: 60px 50px 60px 50px;
+}
+.para1{
+  color: #8f8f8f;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+/* TESTIMONIALS */
+#testimonials{
+  background-color: #ef8172;
+  color: #ffff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+.carousel-inner{
+  padding: 7% 15%;
+
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+.Dog-price{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width:1045px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* DOWNLOADS */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.last-head{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 3% 20% 0;
+}
+
+/* FOOTER */
+#footer{
+  background-color: #ffff;
+  height: 150px;
+  padding-top: 50px;
+
+}
+.last-icon{
+  padding: 0 10px 50px 10px;
+}
